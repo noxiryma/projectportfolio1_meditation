@@ -1,0 +1,25 @@
+/* Main font */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 5px 0 20px 0;
+    width: 100%;
+    background-color: #de8e8a;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.socialmedia {
+    color: #401c04;
+    padding: 0 10px;
+}
+
