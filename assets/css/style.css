@@ -19,6 +19,15 @@ nav {
     top: 100%;
 }
 
+#menu {
+    list-style-type: none;
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
 
   /* Footer */
 
@@ -37,4 +46,24 @@ footer {
     padding: 0 10px;
 }
 
-/* Media query section */
+    /* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    
+}
