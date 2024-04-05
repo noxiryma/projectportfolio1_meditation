@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #de8e8a;
+    top: 0px;
 }
 
 header a {
@@ -61,6 +62,14 @@ nav a {
     border-bottom: 1px solid #401c04;
 }
 
+
+/* So Hum Website meaning styling */
+
+#definition {
+   position: relative;
+   text-align: center;
+   margin-top: 70px;
+}
   /* Footer */
 
 footer {
