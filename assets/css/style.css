@@ -6,6 +6,20 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
   }
 
+
+/* Navigation menu */
+
+nav {
+    position:absolute;
+    background-color: #de8e8a;
+    width: 100%;
+    right: 0;
+    padding: 0 1rem;
+    display:none;
+    top: 100%;
+}
+
+
   /* Footer */
 
 footer {
@@ -23,3 +37,4 @@ footer {
     padding: 0 10px;
 }
 
+/* Media query section */
