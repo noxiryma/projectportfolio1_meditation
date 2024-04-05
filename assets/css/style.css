@@ -9,6 +9,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+/* Background colour for body of page*/
+
+body {
+    background-color: #F9F7EC;
+}
+
 /* Header */
 header {
     position: fixed;
