@@ -7,7 +7,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #401c04;
   }
 
-
+p {
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
 
 /* Background colour for body of page*/
 
@@ -105,7 +109,26 @@ nav a {
     justify-content: space-between;
     flex-direction: row;
 }
-  /* Footer */
+
+
+/* Main background image */
+#background-image-main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+#quote-home {
+    background-color: #ffffff;
+    width: fit-content;
+    text-align: center;
+    color: #401c04;
+    text-decoration: #401c04;
+    box-shadow: #ffffff;
+}
+
+/* Footer */
 
 footer {
     position: relative;
