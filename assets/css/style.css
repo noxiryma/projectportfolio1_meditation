@@ -68,7 +68,7 @@ header a {
 /* Navigation menu */
 
 nav {
-    position:fixed;
+    position: fixed;
     background-color: #de8e8a;
     width: 100%;
     height: fit-content;
@@ -153,24 +153,25 @@ nav a {
 }
 
 #benefits {
-
+    position: relative;
+    padding: 50px 0px;
 }
 
 /* Footer */
-
 footer {
-    position: relative;
-    bottom: 0;
-    padding: 5px 0 20px 0;
-    width: 100%;
     background-color: #de8e8a;
-    text-align: center;
+    width: 100%;
     text-transform: uppercase;
+    text-align: center;
+    color: #401c04;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
-.socialmedia {
+footer a {
     color: #401c04;
-    padding: 0 10px;
+    padding: 20px 0;
 }
 
 /* Media query: large or landscape phones (576px and up) */
