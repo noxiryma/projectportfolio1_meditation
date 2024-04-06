@@ -112,20 +112,24 @@ nav a {
 
 
 /* Main background image */
-#background-image-main {
+#main-photo {
     width: 100%;
     height: 700px;
-    background: url(../assets/images/Main_background_image.jpg) no repeat center center/cover;
+    background: url(../images/Main_background_image.jpg) no-repeat center center/cover;
     position: relative;
+    display: flex;
 }
 
 #quote-home {
-    background-color: #ffffff;
-    width: fit-content;
-    text-align: center;
-    color: #401c04;
-    text-decoration: #401c04;
-    box-shadow: #ffffff;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 130%;
+    text-transform:lowercase;
+    color:#401c04;
+    position: absolute;
+    bottom: 10px;
+    width: 40%;
+    min-height: 100px;
+    padding: 50px 50px;
 }
 
 /* Footer */
