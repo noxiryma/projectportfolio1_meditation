@@ -29,14 +29,14 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #de8e8a;
-    top: 0px;
+    top: 0;
 }
 
 header h1 {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 250px;
+    font-size: 200px;
   
 }
 
@@ -117,7 +117,6 @@ nav a {
     height: 700px;
     background: url(../images/Main_background_image.jpg) no-repeat center center/cover;
     position: relative;
-    display: flex;
 }
 
 #quote-home {
@@ -132,6 +131,25 @@ nav a {
     padding: 50px 50px;
 }
 
+/* purpose of website image and text */
+
+#purpose-image{
+    width: 25%;
+    height: 350px;
+    position: relative;
+    border-radius: 50%;
+    right: 0;
+    padding: 20px 0 20px 0;
+}
+
+#purpose-text {
+    width: 50%;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    left: 0;
+    padding: 20px 0 5px 0;
+}
 /* Footer */
 
 footer {
