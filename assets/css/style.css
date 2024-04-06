@@ -92,14 +92,18 @@ nav a {
     border-bottom: 1px solid #401c04;
 }
 
-
 /* So Hum Website meaning styling */
 
 #definition {
-   position: relative;
-   text-align: center;
+   position: absolute;
+   text-align: left;
    margin-top: 70px;
+   padding: 5px 15px;
+   display: flex;
+   flex-direction: column;
+   
 }
+
   /* Footer */
 
 footer {
