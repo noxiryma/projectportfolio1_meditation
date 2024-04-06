@@ -138,8 +138,8 @@ nav a {
     height: 350px;
     position: relative;
     border-radius: 50%;
-    right: 0;
-    padding: 20px 0 20px 0;
+    padding: 120px 150px 120px 150px;
+    float: right;
 }
 
 #purpose-text {
@@ -148,8 +148,14 @@ nav a {
     position: relative;
     text-align: center;
     left: 0;
-    padding: 20px 0 5px 0;
+    padding: 50px 0 5px 20px;
+    float: left;
 }
+
+#benefits {
+
+}
+
 /* Footer */
 
 footer {
