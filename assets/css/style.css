@@ -21,11 +21,11 @@ body {
 
 /* Header */
 header {
-    position: relative;
-    padding: 0 10px;
+    position: fixed;
+    padding: 0 20px;
     z-index: 99;
     width: 100%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
     background-color: #de8e8a;
@@ -36,7 +36,7 @@ header h1 {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 200px;
+    font-size: 50px;
   
 }
 
@@ -46,25 +46,6 @@ header a {
 }
 
 
-#other-pages-logo {
-    position: relative;
-    padding: 0 10px;
-    z-index: 99;
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: space-between;
-    background-color: #de8e8a;
-    top: 0px;
-}
-
-#other-pages-logo   {
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 100px;
-  
-}
 /* Navigation menu */
 
 nav {
@@ -72,8 +53,8 @@ nav {
     background-color: #de8e8a;
     width: 100%;
     height: fit-content;
-    right: 2rem;
-    padding: 5px 1rem;
+    right: 20px;
+    padding: 5px 20px;
     display:none;
     top: 100%;
 }
@@ -153,8 +134,7 @@ nav a {
 }
 
 #benefits {
-    position: relative;
-    padding: 50px 0px;
+    
 }
 
 /* Footer */
