@@ -91,7 +91,7 @@ nav a {
     flex-direction: row;
 }
 
-
+/* Home Page */
 /* Main background image */
 #main-photo {
     width: 100%;
@@ -148,6 +148,20 @@ nav a {
     line-height: 20px;
 }
 
+
+/* Techniques page */ 
+
+#techniques {
+    width: 90%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#techniques-option > h5 {
+    border-bottom: 1px solid #401c04;
+    border-width: 20%;
+}
 /* Footer */
 
 footer {
