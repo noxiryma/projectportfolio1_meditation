@@ -115,14 +115,17 @@ nav a {
 
 /* purpose of website image and text */
 
-#purpose-image{
+#benefits {
+    width: 90%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#benefits-image{
     width: 90vw;
     height: 90vw;
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: first baseline;
-    justify-content: right;
+    position: relative;
     /* image circular*/
     border-radius: 50%;
     max-width: 300px;
@@ -130,13 +133,19 @@ nav a {
     padding: 20px 20px;
 }
 
-#benefits {
+#benefits-list {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#benefits h3 {
+    font-size: 200%;
+    text-align: center;
+}
+
+#benefits-meditation {
     margin-top: 20px;
     line-height: 20px;
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-end;
 }
 
 /* Footer */
