@@ -98,6 +98,7 @@ nav a {
     height: 700px;
     background: url(../images/Main_background_image.jpg) no-repeat center center/cover;
     position: relative;
+    padding: 100px 0;
 }
 
 #quote-home {
@@ -117,43 +118,52 @@ nav a {
 #purpose-image{
     width: 90vw;
     height: 90vw;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: first baseline;
+    justify-content: right;
     /* image circular*/
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
     padding: 20px 20px;
-    float: center;
-}
-
-#purpose-text {
-    width: 50%;
-    height: 50px;
-    position: relative;
-    text-align: center;
-    left: 0;
-    padding: 50px 0 5px 20px;
-    float: left;
 }
 
 #benefits {
-    
+    margin-top: 20px;
+    line-height: 20px;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
 }
 
 /* Footer */
+
 footer {
     background-color: #de8e8a;
-    width: 100%;
-    text-transform: uppercase;
-    text-align: center;
     color: #401c04;
-    display: flex;
-    justify-content: center;
-    position: relative;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    position: inherit;
+    top: 97%;
+    bottom: 0;
 }
 
-footer a {
-    color: #401c04;
+#socialmedia {
+    display: flex;
+    justify-content: space-evenly;
     padding: 20px 0;
+    list-style-type: none;
+}
+
+#socialmedia i {
+    font-size: 140%;
+    color: #401c04;
+    padding: 15%;
+
 }
 
 /* Media query: large or landscape phones (576px and up) */
