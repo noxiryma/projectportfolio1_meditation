@@ -156,10 +156,14 @@ nav a {
     margin-top: 120px;
     display: flex;
     justify-content: space-evenly;
+    padding: 20px 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #techniques-option {
    text-align: left;
+   padding: 20px 0;
 }
 
 #techniques-option > h4 {
@@ -173,6 +177,8 @@ nav a {
 }
 
 #techniques-image {
+    flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     width: 90vw;
     height: 90vw;
@@ -182,6 +188,7 @@ nav a {
     border-radius: 55%;
     padding: 20px 0px;
 }
+
 
 /* Footer */
 
