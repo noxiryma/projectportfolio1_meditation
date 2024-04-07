@@ -155,13 +155,34 @@ nav a {
     width: 90%;
     margin: 20px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-#techniques-option > h5 {
+#techniques-option {
+   text-align: left;
+}
+
+#techniques-option > h4 {
+    font-size: 150%;
     border-bottom: 1px solid #401c04;
     border-width: 20%;
+    bottom: 0;
 }
+#techniques-option > h5 {
+    font-size: 120%;
+}
+
+#techniques-image {
+    position: relative;
+    width: 90vw;
+    height: 90vw;
+    /* Makes image circular*/
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 55%;
+    padding: 20px 0px;
+}
+
 /* Footer */
 
 footer {
