@@ -151,6 +151,28 @@ nav a {
 
 /* Techniques page */ 
 
+#getting-started {
+    text-wrap: wrap;
+    max-width: 75%;
+    min-height: 300px;
+    margin-top: 160px;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#getting-started-text > h4 {
+    font-size: 150%;
+    border-bottom: 1px solid #401c04;
+    border-width: 20%;
+    bottom: 0;
+}
+
+#postures-link {
+    color: #401c04;
+}
+
 #techniques {
     width: 90%;
     margin-top: 120px;
