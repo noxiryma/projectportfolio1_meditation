@@ -82,12 +82,12 @@ nav a {
 
 /* Home Page */
 /* Main background image with parallax*/
-#main-photo-parallax {
+.main-photo-parallax {
     /*main image*/
     background: url(../images/Main_background_image.jpg) no-repeat center center/cover;
 
     /*specific height*/
-    min-height: 500px;
+    min-height: 810px;
 
     /* parallax scrolling effect */
     background-attachment: fixed;
@@ -103,6 +103,7 @@ nav a {
     color:#401c04;
     position: absolute;
     bottom: 50%;
+    top: 50%;
     width: 100%;
     min-height: 100px;
     padding: 50px 50px;
@@ -110,42 +111,57 @@ nav a {
 
 /* purpose of website image and text */
 
+
+.benefits-parallax {
+      /*main image*/
+      background: url(../images/Main_monk_hands.jpg) no-repeat center center/cover;
+
+      /*specific height*/
+      min-height: 800px;
+  
+      /* parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+}
+/*
 #benefits {
     width: 100%;
     padding: 50px 0;
     margin: 20px 0;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(255, 255, 255, 0.8);
-    /*main image*/
-    background: url(../images/lotus-flower.jpg) no-repeat center center/cover;
-
-    /*specific height*/
-    min-height: 500px;
-
-    /* parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
+}*/
 
 #benefits-text {
     background-color: rgba(255, 255, 255, 0.8);
-    
+    width: 100%;
+    padding: 20px 0;
+    top: 50%;
+    bottom:50%;
 }
 
+#benefits-text > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+/*
 #benefits-image{
     width: 90vw;
     height: 90vw;
-    position: relative;
+    position: relative;*/
     /* image circular*/
-    border-radius: 50%;
+    /*border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
     padding: 20px 20px;
-}
+}*/
 
 #benefits h3 {
     font-size: 200%;
