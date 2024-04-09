@@ -99,11 +99,10 @@ nav a {
 #quote-home {
     background-color: rgba(255, 255, 255, 0.8);
     font-size: 130%;
-    text-transform:lowercase;
     text-align: center;
     color:#401c04;
     position: absolute;
-    bottom: 350px;
+    bottom: 50%;
     width: 100%;
     min-height: 100px;
     padding: 50px 50px;
@@ -113,9 +112,11 @@ nav a {
 
 #benefits {
     width: 90%;
+    padding: 50px 0;
     margin: 20px 0;
     display: flex;
     justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 #benefits-image{
