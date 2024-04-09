@@ -1,22 +1,11 @@
-/* Main font */
+/* Background colour for body of page and font style*/
 
-h1, h2, h3, h4, h5, h6 {
+body {
+    background-color: #ffffff;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #401c04;
-  }
-
-p {
-        font-family: "Montserrat Alternates", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-}
-
-/* Background colour for body of page*/
-
-body {
-    background-color: #ffffff;
 }
 
 /* Header */
@@ -36,7 +25,7 @@ header h1 {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 50px;
+    font-size: 300%;
   
 }
 
