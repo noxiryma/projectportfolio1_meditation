@@ -81,23 +81,30 @@ nav a {
 }
 
 /* Home Page */
-/* Main background image */
-#main-photo {
-    width: 100%;
-    height: 700px;
+/* Main background image with parallax*/
+#main-photo-parallax {
+    /*main image*/
     background: url(../images/Main_background_image.jpg) no-repeat center center/cover;
-    position: relative;
-    padding: 100px 0;
+
+    /*specific height*/
+    min-height: 500px;
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #quote-home {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
     font-size: 130%;
     text-transform:lowercase;
+    text-align: center;
     color:#401c04;
     position: absolute;
-    bottom: 10px;
-    width: 40%;
+    bottom: 350px;
+    width: 100%;
     min-height: 100px;
     padding: 50px 50px;
 }
