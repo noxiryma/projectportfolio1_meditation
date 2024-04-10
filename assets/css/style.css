@@ -70,7 +70,7 @@ nav a {
 /* So Hum Website meaning styling */
 
 #definition {
-    position: absolute;
+    position: fixed;
     text-transform: lowercase;
     margin-top: 70px;
     padding: 5px 10px;
@@ -88,6 +88,7 @@ nav a {
 
     /*specific height*/
     min-height: 800px;
+    min-width: 100%;
 
     /* parallax scrolling effect */
     background-attachment: fixed;
@@ -111,6 +112,12 @@ nav a {
     font-size: 130%;
 }
 
+#quote-home > p {
+    font-size: 110%;
+    /*line-height: 15px;*/
+    text-wrap: wrap;
+    padding: 0 50px;
+}
 /* purpose of website image and text */
 
 
@@ -120,6 +127,7 @@ nav a {
 
       /*specific height*/
       min-height: 800px;
+      width: 100%;
   
       /* parallax scrolling effect */
       background-attachment: fixed;
@@ -137,12 +145,13 @@ nav a {
     justify-content: space-around;
 }*/
 
-#benefits-text {
+#benefits-text, #roots {
     background-color: rgba(255, 255, 255, 0.8);
     width: 100%;
-    padding: 20px 0;
+    padding: 50px 0;
     top: 50%;
     bottom:50%;
+    text-align: center;
 }
 
 #benefits-text > ul {
@@ -153,6 +162,9 @@ nav a {
     line-height: 30px;
 }
 
+#roots > p {
+    line-height: 25px;
+}
 /*
 #benefits-image{
     width: 90vw;
@@ -165,13 +177,10 @@ nav a {
     padding: 20px 20px;
 }*/
 
-#benefits h3 {
+#benefits h3, #roots h3 {
     font-size: 200%;
     text-align: center;
 }
-
-
-
 
 /* Techniques page */ 
 
@@ -209,7 +218,8 @@ nav a {
     padding: 20px 0px;
 }
 
-#postures-link {
+/* internal link colors */
+#postures-link, #roots a {
     color: #401c04;
 }
 
