@@ -218,16 +218,6 @@ nav a {
         background-size: cover;
 }
 
-/*#getting-started {
-    width: 90%;
-    margin-top: 120px;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px 20px;
-    flex-direction: row;
-    flex-wrap: wrap;
-}*/
-
 #getting-started-text {
     text-align: center;
     padding: 20px 0;
@@ -239,19 +229,7 @@ nav a {
     font-size: 150%;
 }
 
-/*
-#getting-started-image {
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;
-    width: 90vw;
-    height: 90vw;*/
-    /* Makes image circular*/
-    /*max-width: 300px;
-    max-height: 300px;
-    border-radius: 55%;
-    padding: 20px 0px;
-}*/
+/* List of techniques section */
 
 #techniques {
     width: 90%;
