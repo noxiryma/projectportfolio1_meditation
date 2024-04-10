@@ -86,6 +86,7 @@ nav a {
 }
 
 /* Home Page */
+
 /* Main background image with parallax*/
 .welcome-photo-parallax {
     /*main image*/
@@ -123,11 +124,12 @@ nav a {
     text-wrap: wrap;
     padding: 0 50px;
 }
-/* purpose of website image and text */
+
+/* parallaxes*/
 
 .roots-parallax {
     /*main image*/
-    background: url(../images/Main_monk_hands.jpg) no-repeat center center/cover;
+    background: url(../images/lotus-flower.jpg) no-repeat center center/cover;
 
     /*specific height*/
     min-height: 800px;
@@ -143,20 +145,36 @@ nav a {
 
 
 .benefits-parallax {
-      /*main image*/
-      background: url(../images/Main_monk_hands.jpg) no-repeat center center/cover;
+    /*main image*/
+    background: url(../images/Main_monk_hands.jpg) no-repeat center center/cover;
 
-      /*specific height*/
-      min-height: 800px;
-      width: 100%;
-  
-      /* parallax scrolling effect */
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+    /*specific height*/
+    min-height: 800px;
+    width: 100%;
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
       
 }
+
+.journey-parallax {
+    /*main image*/
+    background: url(../images/path.jpg) no-repeat center center/cover;
+
+    /*specific height*/
+    min-height: 800px;
+    width: 100%;
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*
 #benefits {
     width: 100%;
