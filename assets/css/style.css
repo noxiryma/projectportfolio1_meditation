@@ -203,7 +203,22 @@ nav a {
 
 /* TECHNIQUES PAGE */ 
 
-#getting-started {
+.getting-started  {
+        /*main image*/
+        background: url(../images/getting-started.jpg) no-repeat center center/cover;
+
+        /*specific height*/
+        min-height: 800px;
+        width: 100%;
+    
+        /* parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+/*#getting-started {
     width: 90%;
     margin-top: 120px;
     display: flex;
@@ -211,31 +226,32 @@ nav a {
     padding: 20px 20px;
     flex-direction: row;
     flex-wrap: wrap;
-}
+}*/
 
 #getting-started-text {
-    text-align: left;
+    text-align: center;
     padding: 20px 0;
-}
-#getting-started-text > h4 {
-    font-size: 150%;
-    border-bottom: 1px solid #401c04;
-    border-width: 20%;
-    bottom: 0;
+    margin-top: 120px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
+#getting-started-text > h4 {
+    font-size: 150%;
+}
+
+/*
 #getting-started-image {
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
     width: 90vw;
-    height: 90vw;
+    height: 90vw;*/
     /* Makes image circular*/
-    max-width: 300px;
+    /*max-width: 300px;
     max-height: 300px;
     border-radius: 55%;
     padding: 20px 0px;
-}
+}*/
 
 #techniques {
     width: 90%;
