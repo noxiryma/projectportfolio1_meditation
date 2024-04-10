@@ -104,7 +104,7 @@ nav a {
     top: 40%;
     width: 100%;
     min-height: 100px;
-    padding: 50px 50px;
+    padding: 50px 0;
 }
 
 #quote-home > h4 {
