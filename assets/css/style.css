@@ -8,6 +8,11 @@ body {
     color: #401c04;
 }
 
+/* internal link colors */
+#postures-link, #roots a, #journey a {
+    color: #401c04;
+}
+
 /* Header */
 header {
     position: fixed;
@@ -161,7 +166,7 @@ nav a {
     justify-content: space-around;
 }*/
 
-#benefits-text, #roots-text {
+#benefits-text, #roots-text, #journey-text {
     background-color: rgba(255, 255, 255, 0.8);
     width: 100%;
     padding: 50px 0;
@@ -178,7 +183,7 @@ nav a {
     line-height: 30px;
 }
 
-#roots > p {
+#roots > p, #journey-text > p {
     line-height: 25px;
 }
 /*
@@ -193,7 +198,7 @@ nav a {
     padding: 20px 20px;
 }*/
 
-#benefits h3, #roots h3 {
+#benefits h3, #roots h3, #journey-text h3 {
     font-size: 200%;
     text-align: center;
 }
@@ -232,11 +237,6 @@ nav a {
     max-height: 300px;
     border-radius: 55%;
     padding: 20px 0px;
-}
-
-/* internal link colors */
-#postures-link, #roots a {
-    color: #401c04;
 }
 
 #techniques {
