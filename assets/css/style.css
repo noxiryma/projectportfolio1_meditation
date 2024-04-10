@@ -104,7 +104,7 @@ nav a {
     bottom: 60%;
     top: 40%;
     width: 100%;
-    min-height: 100px;
+    min-height: 150px;
     padding: 50px 0;
 }
 
@@ -119,6 +119,22 @@ nav a {
     padding: 0 50px;
 }
 /* purpose of website image and text */
+
+.roots-parallax {
+    /*main image*/
+    background: url(../images/Main_monk_hands.jpg) no-repeat center center/cover;
+
+    /*specific height*/
+    min-height: 800px;
+    width: 100%;
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 
 
 .benefits-parallax {
@@ -145,7 +161,7 @@ nav a {
     justify-content: space-around;
 }*/
 
-#benefits-text, #roots {
+#benefits-text, #roots-text {
     background-color: rgba(255, 255, 255, 0.8);
     width: 100%;
     padding: 50px 0;
