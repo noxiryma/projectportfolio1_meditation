@@ -231,34 +231,40 @@ nav a {
 
 /* List of techniques section */
 
-#techniques {
-    width: 90%;
-    margin-top: 120px;
+.flex-container {
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px 20px;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
+    padding: 20px 0;
 }
 
-#techniques-option {
-   text-align: left;
-   padding: 20px 0;
+.techniques {
+    width: 100%;
+    padding: 20px 20px;
 }
 
-#techniques-option > h4 {
+.techniques h4 {
     font-size: 150%;
-    border-bottom: 1px solid #401c04;
-    border-width: 20%;
-    bottom: 0;
+    text-align: center;
 }
-#techniques-option > h5 {
+.techniques h5, .techniques h6 {
     font-size: 120%;
 }
 
+#text-box {
+    width: 40%;
+    text-wrap: wrap;
+    border: 2px solid #401c04;
+    border-radius: 25px 25px;
+}
+
+#techniques-option {
+   text-align: center;
+   padding: 10px 0;
+}
+
 #techniques-image {
-    flex-direction: row;
-    flex-wrap: wrap;
     position: relative;
     width: 90vw;
     height: 90vw;
@@ -266,7 +272,7 @@ nav a {
     max-width: 300px;
     max-height: 300px;
     border-radius: 55%;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 
