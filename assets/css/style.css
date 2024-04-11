@@ -13,6 +13,10 @@ body {
     color: #401c04;
 }
 
+a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
 /* Header all pages */
 header {
     position: fixed;
@@ -166,9 +170,10 @@ nav a {
 
 #quote-home {
     text-align: center;
-    padding: 20px 0;
+    padding: 140px 0;
     margin-top: 110px;
     background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
 }
 
 #quote-home > h4 {
