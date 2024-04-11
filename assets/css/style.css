@@ -194,6 +194,7 @@ nav a {
     top: 50%;
     bottom:50%;
     text-align: center;
+   /*line-height: 25px;*/
 }
 
 #benefits-text > ul {
@@ -275,10 +276,6 @@ nav a {
     border: 2px solid #401c04;
     border-radius: 25px 25px;
 }
-
-/*#text-box > ul {
-    list-style-type: none;
-}*/
 
 #techniques-image {
     position: relative;
