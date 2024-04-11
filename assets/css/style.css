@@ -15,6 +15,7 @@ body {
 
 a:hover {
     background-color: rgba(255, 255, 255, 0.4);
+    transition-duration: 0.3s;
 }
 
 /* Header all pages */
