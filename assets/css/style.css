@@ -171,7 +171,7 @@ nav a {
 #quote-home {
     text-align: center;
     padding: 140px 0;
-    margin-top: 110px;
+    margin-top: 200px;
     background-color: rgba(255, 255, 255, 0.7);
     position: relative;
 }
@@ -294,6 +294,8 @@ main {
 
 /* POSTURES */
 
+
+
 /*SIGN UP PAGE*/
 
 main {
@@ -374,7 +376,7 @@ footer {
     color: #401c04;
     padding: 15%;
 
-}
+} 
 
 /* Media query: large or landscape phones (576px and up) */
 
