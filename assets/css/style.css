@@ -167,7 +167,7 @@ nav a {
 #quote-home {
     text-align: center;
     padding: 20px 0;
-    margin-top: 120px;
+    margin-top: 110px;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -242,13 +242,14 @@ nav a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    /*padding: 20px 0;*/
+    /*flex-wrap: wrap;
+    padding: 20px 0;*/
 }
 
 .techniques {
     width: 100%;
     /*padding: 20px 20px;*/
+    text-align: center;
 }
 
 .techniques h4 {
@@ -260,19 +261,19 @@ nav a {
 
 .techniques h5, .techniques h6 {
     font-size: 120%;
+    text-align: center;
 }
 
 #text-box {
     width: 40%;
     text-wrap: wrap;
-   /* border: 2px solid #401c04;
-    border-radius: 25px 25px;*/
+    border: 2px solid #401c04;
+    border-radius: 25px 25px;
 }
 
-#techniques-option {
-   text-align: center;
-   /*padding: 5px 0;*/
-}
+/*#text-box > ul {
+    list-style-type: none;
+}*/
 
 #techniques-image {
     position: relative;
