@@ -349,6 +349,12 @@ main {
     font-size: 110%;
     padding: 10px 20px;
     margin-top: 30px;
+    border: none;
+}
+
+.join-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #401c04;
 }
 
 /* FOOTER ALL PAGES */
