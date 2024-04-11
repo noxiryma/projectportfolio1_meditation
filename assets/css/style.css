@@ -20,7 +20,7 @@ a:hover {
 /* Header all pages */
 header {
     position: fixed;
-    padding: 0 20px;
+    padding: 10px 20px;
     z-index: 99;
     width: 100%;
     height: fit-content;
