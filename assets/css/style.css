@@ -251,7 +251,22 @@ main {
 
 .counting-parallax {
     /*main image*/
-    background: url(../images/counting-technique.jpeg) no-repeat center center/cover;
+    background: url(../images/counting.jpg) no-repeat center center/cover;
+
+    /*specific height*/
+    min-height: 500px;
+    width: 100%;
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.focus-parallax {
+    /*main image*/
+    background: url(../images/Candle.jpg) no-repeat center center/cover;
 
     /*specific height*/
     min-height: 500px;
