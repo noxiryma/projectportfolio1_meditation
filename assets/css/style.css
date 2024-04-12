@@ -247,51 +247,7 @@ main {
     font-size: 150%;
 }
 
-/* List of techniques section */
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /*flex-wrap: wrap;
-    padding: 20px 0;*/
-}
-
-.techniques {
-    width: 100%;
-    /*padding: 20px 20px;*/
-    text-align: center;
-}
-
-.techniques h4 {
-    font-size: 150%;
-    text-align: center;
-    border-bottom: 1px solid #401c04;
-    padding-bottom: 5px;
-}
-
-.techniques h5, .techniques h6 {
-    font-size: 120%;
-    text-align: center;
-}
-
-#text-box {
-    width: 40%;
-    text-wrap: wrap;
-    border: 2px solid #401c04;
-    border-radius: 25px 25px;
-}
-
-#techniques-image {
-    position: relative;
-    width: 90vw;
-    height: 90vw;
-    /* Makes image circular*/
-    max-width: 300px;
-    max-height: 300px;
-    border-radius: 55%;
-    padding: 10px 0px;
-}
+/* TECHNIQUES CONTENT */
 
 /* POSTURES */
 
