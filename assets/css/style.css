@@ -249,6 +249,63 @@ main {
 
 /* TECHNIQUES CONTENT */
 
+.counting-parallax {
+    /*main image*/
+    background: url(../images/counting-technique.jpeg) no-repeat center center/cover;
+
+    /*specific height*/
+    min-height: 500px;
+    width: 100%;
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.techniques {
+    flex: 1 0 auto;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0 15px;
+}
+
+#techniques-title {
+    text-align: center;
+    font-size: 200%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+    text-decoration-line: underline;
+}
+
+#techniques-text {
+    text-wrap: wrap;
+    /*border: 2px solid #401c04;*/
+    width: 25%;
+    text-align: center;
+    line-height: 30px;
+}
+
+#techniques-text > h5 {
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+#techniques-text > h6 {
+    font-size: 120%;
+}
+
+#techniques-text > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
 /* POSTURES */
 
 
