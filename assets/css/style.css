@@ -238,12 +238,12 @@ main {
 
 #getting-started-text, #postures-introduction {
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 30px;
     margin-top: 120px;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-#getting-started-text > h4 {
+#getting-started-text > h4, #postures-introduction > h4 {
     font-size: 150%;
 }
 
