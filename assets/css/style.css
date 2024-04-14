@@ -236,7 +236,7 @@ main {
     background-size: cover;
 }
 
-#getting-started-text {
+#getting-started-text, #postures-introduction {
     text-align: center;
     padding: 20px 0;
     margin-top: 120px;
@@ -337,6 +337,21 @@ main {
 }
 
 /* POSTURES */
+
+.postures-intro-parallax {
+        /*main image*/
+        background: url(../images/buddha.jpg) no-repeat center center/cover;
+
+        /*specific height*/
+        min-height: 800px;
+        width: 100%;
+    
+        /* parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
 
 
 
