@@ -353,8 +353,38 @@ main {
         background-size: cover;
 }
 
+.postures {
+    flex: 1 0 auto;
+    display: flex;
+}
 
+.postures-a {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
 
+#left-posture-image {
+    max-width: 50%;
+}
+
+#postures-a {
+    max-width: 50%;
+    padding: 0 25px;
+}
+
+#postures-a > h4 {
+    font-size: 200%;
+}
+
+#postures-a > h5 {
+    font-size: 120%;
+}
 /*SIGN UP PAGE*/
 
 main {
