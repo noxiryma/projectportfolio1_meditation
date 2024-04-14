@@ -369,20 +369,31 @@ main {
     align-items: center;
 }
 
-#left-posture-image {
+.postures-b {
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+#postures-image {
     max-width: 50%;
 }
 
-#postures-a {
+#postures-a, #postures-b {
     max-width: 50%;
     padding: 0 25px;
 }
 
-#postures-a > h4 {
+#postures-a > h4, #postures-b > h4 {
     font-size: 200%;
 }
 
-#postures-a > h5 {
+#postures-a > h5, #postures-b > h5 {
     font-size: 120%;
 }
 /*SIGN UP PAGE*/
