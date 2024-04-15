@@ -46,14 +46,14 @@ header a {
 }
 
 /* Navigation menu ALL PAGES */
+
 nav {
-    position:absolute;
+    position: relative;
     background-color: #de8e8a;
-    width: 100%;
-    right: 0;
-    padding: 0 25px;
-    display:none;
-    top: 100%;
+    color: #401c04;
+    width: 50%;
+    text-align: right;
+    padding: 0 15px;
 }
 
 #nav-toggle:checked~nav {
@@ -69,9 +69,11 @@ nav {
 }
 
 #menu {
-    font-size: 100%;
+    font-size: 110%;
     list-style-type: none;
     line-height:25px;
+    letter-spacing: 5px;
+    padding: 0 15px;
 }
 
 .active {
@@ -481,11 +483,11 @@ footer {
 
   /* Navigation menu */
     
-    .nav-toggle-label {
+  /*  .nav-toggle-label {
         font-size: 2rem;
         position: relative;
         padding: 40px 30px;
-    }
+    }*/
 
     /* HOME PAGE Main content positioning */
 
@@ -609,24 +611,148 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     
     /* Navigation menu */
     
-    .nav-toggle-label {
+   /* .nav-toggle-label {
         font-size: 2rem;
         position: relative;
         padding: 40px 30px;
-    }
+    }*/
     
     /*HOME PAGE*/
 
+    .welcome-photo-parallax {
+        /*main image*/
+        background: url(../images/Main_background_image.jpg) no-repeat center center/cover;
+
+        /*specific height*/
+        min-height: 800px;
+        width: 100%;
+
+        /* parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #quote-home > h4 {
+        padding: 0 25px;
+    }
+
+    #quote-home > p, #roots-text > p, #journey-text > p, #benefits-text > ul {
+        padding: 0 25px;
+    }
+
+    #benefits h3, #roots h3, #journey-text h3 {
+        font-size: 110%;
+        padding: 0 25px;
+    }
+
+     /* POSTURES */
+
+     .postures {
+        flex: 1 0 auto;
+        display: flex;
+        }
     
+        .postures-a, .postures-b {
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        background-color: rgba(255, 255, 255, 0.8);
+        text-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        }
+    
+        #postures-image {
+        max-width: 100%;
+        }
+    
+        #postures-a, #postures-b {
+        max-width: 100%;
+        padding: 0 25px;
+        }
+    
+        #postures-a > h4, #postures-b > h4 {
+        font-size: 150%;
+        }
+    
+        #postures-a > h5, #postures-b > h5 {
+        font-size: 100%;
+        }
+
+        /* TECHNIQUES CONTENT */
+
+    #getting-started-text > h4, #postures-introduction > h4 {
+        font-size: 120%;
+    }
+
+    .techniques {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #techniques-title {
+        font-size: 150%;
+    }
+
+    #techniques-text {
+        text-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        font-size: 95%;
+        padding: 0 25px;
+    }
+
+    #techniques-text > h5 {
+        font-size: 130%;
+    }
+
+    #techniques-text > h6 {
+        font-size: 110%;
+    }
+
+    #techniques-text > ul {
+        list-style-type: none;
+    }
+    
+    /*SIGN UP PAGE*/
+
+    #sign-up {
+        text-align: center;
+    }
+
+    .text-input {
+        width: 50%;  
+    }
+
+    .radio-buttons div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 15px 25px;
+    }
+
         }
 
 /* Large devices (laptops and desktops, 992px and up) */
 
-@media screen and (min-width:992px) {
+@media screen and (max-width:992px) {
+
+    /*HOME PAGE */
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
 
 }
 
