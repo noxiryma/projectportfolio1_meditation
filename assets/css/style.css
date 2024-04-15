@@ -6,6 +6,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: #401c04;
+    margin: 0;
 }
 
 /* internal link colors */
@@ -61,10 +62,6 @@ nav {
 nav a {
     color: inherit;
     text-decoration: none;
-}
-
-#navigation-toggle {
-    display: none;
 }
 
 #menu {
@@ -215,6 +212,67 @@ nav a {
     text-align: center;
 }
 
+/* POSTURES */
+
+.postures-intro-parallax {
+    /*main image*/
+    background: url(../images/buddha.jpg) no-repeat center center/cover;
+
+    /*specific height*/
+    min-height: 800px;
+    width: 100%;
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.postures {
+flex: 1 0 auto;
+display: flex;
+}
+
+.postures-a {
+display: flex; 
+flex-direction: row;
+justify-content: space-around;
+align-items: flex-start;
+background-color: rgba(255, 255, 255, 0.8);
+text-wrap: wrap;
+text-align: center;
+align-items: center;
+}
+
+.postures-b {
+display: flex; 
+flex-direction: row-reverse;
+justify-content: space-around;
+align-items: flex-start;
+background-color: rgba(255, 255, 255, 0.8);
+text-wrap: wrap;
+text-align: center;
+align-items: center;
+}
+
+#postures-image {
+max-width: 50%;
+}
+
+#postures-a, #postures-b {
+max-width: 50%;
+padding: 0 25px;
+}
+
+#postures-a > h4, #postures-b > h4 {
+font-size: 200%;
+}
+
+#postures-a > h5, #postures-b > h5 {
+font-size: 120%;
+}
+
 /* TECHNIQUES PAGE */ 
 
 main {
@@ -330,72 +388,9 @@ main {
 }
 
 #techniques-text > ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
-/* POSTURES */
-
-.postures-intro-parallax {
-        /*main image*/
-        background: url(../images/buddha.jpg) no-repeat center center/cover;
-
-        /*specific height*/
-        min-height: 800px;
-        width: 100%;
-    
-        /* parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-}
-
-.postures {
-    flex: 1 0 auto;
-    display: flex;
-}
-
-.postures-a {
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    background-color: rgba(255, 255, 255, 0.8);
-    text-wrap: wrap;
-    text-align: center;
-    align-items: center;
-}
-
-.postures-b {
-    display: flex; 
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: flex-start;
-    background-color: rgba(255, 255, 255, 0.8);
-    text-wrap: wrap;
-    text-align: center;
-    align-items: center;
-}
-
-#postures-image {
-    max-width: 50%;
-}
-
-#postures-a, #postures-b {
-    max-width: 50%;
     padding: 0 25px;
 }
 
-#postures-a > h4, #postures-b > h4 {
-    font-size: 200%;
-}
-
-#postures-a > h5, #postures-b > h5 {
-    font-size: 120%;
-}
 /*SIGN UP PAGE*/
 
 main {
@@ -485,9 +480,182 @@ footer {
 
 } 
 
-/* Media query: large or landscape phones (576px and up) */
+/* Media query: large or landscape phones (320px and up) */
 
-@media screen and (min-width: 576px) { 
+@media screen and (min-width: 320px) { 
+
+header {
+    max-width: 100%;
+    position: fixed;
+}
+
+#definition {
+    font-size: 80%;
+    position: fixed;
+    text-transform: lowercase;
+    margin-top: 65px;
+    padding: 5px 3px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/* Navigation drop down menu icon */ 
+
+
+nav {
+    position:absolute;
+    background-color: #de8e8a;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    display: block;
+    position: relative;
+}
+
+#nav-toggle {
+    display: none;
+    position: relative;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+/* HOME PAGE Main content positioning */
+
+.welcome-photo-parallax {
+    /*main image*/
+    background: url(../images/Main_background_image.jpg) no-repeat center center/cover;
+
+    /*specific height*/
+    min-height: 800px;
+    width: 100%;
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quote-home > h4 {
+    font-size: 100%;
+    padding: 0 25px;
+}
+
+#quote-home > p, #roots-text > p, #journey-text > p  {
+    font-size: 90%;
+    padding: 0 25px;
+}
+
+#benefits-text, #roots-text, #journey-text {
+    font-size: 90%;
+}
+
+#benefits-text > ul {
+    padding: 0 25px;
+}
+
+#benefits h3, #roots h3, #journey-text h3 {
+    font-size: 110%;
+    padding: 0 25px;
+}
+
+/* POSTURES */
+
+.postures {
+flex: 1 0 auto;
+display: flex;
+}
+
+.postures-a, .postures-b {
+display: flex; 
+flex-direction: column;
+justify-content: space-around;
+align-items: flex-start;
+background-color: rgba(255, 255, 255, 0.8);
+text-wrap: wrap;
+text-align: center;
+align-items: center;
+}
+
+#postures-image {
+max-width: 100%;
+}
+
+#postures-a, #postures-b {
+max-width: 100%;
+padding: 0 25px;
+}
+
+#postures-a > h4, #postures-b > h4 {
+font-size: 150%;
+}
+
+#postures-a > h5, #postures-b > h5 {
+font-size: 100%;
+}
+
+/* TECHNIQUES CONTENT */
+#getting-started-text, #postures-introduction {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#getting-started-text > h4, #postures-introduction > h4 {
+    font-size: 120%;
+}
+
+.techniques {
+    flex-direction: column;
+    align-items: center;
+}
+
+#techniques-title {
+    font-size: 150%;
+}
+
+#techniques-text {
+    text-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    font-size: 95%;
+    padding: 0 25px;
+}
+
+#techniques-text > h5 {
+    font-size: 130%;
+}
+
+#techniques-text > h6 {
+    font-size: 110%;
+}
+
+#techniques-text > ul {
+    font-size: 95%;
+    list-style-type: none;
+}
+
+/*SIGN UP PAGE*/
+
+#sign-up {
+    text-align: center;
+}
+
+.text-input {
+    width: 50%;  
+}
+
+/*.radio-buttons div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px 25px;
+}*/
 
 }
 
@@ -512,7 +680,7 @@ footer {
             #menu>li {
                 padding-left: 1rem;
             }
-            .navigation-label {
+            .nav-label {
                 display: none;
             }
     
