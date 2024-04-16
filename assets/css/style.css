@@ -47,38 +47,6 @@ header a {
 
 /* Navigation menu ALL PAGES */
 
-nav {
-    position: relative;
-    background-color: #de8e8a;
-    color: #401c04;
-    width: 50%;
-    text-align: right;
-    padding: 0 15px;
-}
-
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 100%;
-}
-
-#menu {
-    font-size: 110%;
-    list-style-type: none;
-    line-height:25px;
-    letter-spacing: 5px;
-    padding: 0 15px;
-}
-
-.active {
-    border-bottom: 1px solid #401c04;
-}
 
 /* So Hum Website meaning styling */
 
@@ -474,7 +442,7 @@ footer {
 
 /* Media query: large or landscape phones (320px and up) */
 
-@media screen and (max-width: 320px) { 
+@media screen and (min-width: 320px) { 
 
     header {
         max-width: 100%;
@@ -611,7 +579,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     
     /* Navigation menu */
     
@@ -742,7 +710,7 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 
-@media screen and (max-width:992px) {
+@media screen and (min-width:992px) {
 
     /*HOME PAGE */
 
