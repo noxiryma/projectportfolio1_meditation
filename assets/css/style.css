@@ -19,6 +19,7 @@ a:hover {
     transition-duration: 0.3s;
 }
 
+
 /* Header all pages */
 header {
     position: fixed;
@@ -46,7 +47,37 @@ header a {
 }
 
 /* Navigation menu ALL PAGES */
+nav {
+    position: fixed;
+    font-size: 130%;
+    top: 10%;
+    right: 0;
+    padding: 0 25px;
+}
 
+#menu {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#de8e8a;
+}
+
+#menu > li {
+    display: inline;
+}
+
+#menu > a {
+    display: block;
+    color: #401c04;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.active {
+    border-bottom: 10px solid #401c04;
+}
 
 /* So Hum Website meaning styling */
 
@@ -451,11 +482,7 @@ footer {
 
   /* Navigation menu */
     
-  /*  .nav-toggle-label {
-        font-size: 2rem;
-        position: relative;
-        padding: 40px 30px;
-    }*/
+
 
     /* HOME PAGE Main content positioning */
 
@@ -583,11 +610,6 @@ footer {
     
     /* Navigation menu */
     
-   /* .nav-toggle-label {
-        font-size: 2rem;
-        position: relative;
-        padding: 40px 30px;
-    }*/
     
     /*HOME PAGE*/
 
