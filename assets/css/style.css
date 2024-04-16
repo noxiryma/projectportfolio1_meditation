@@ -60,12 +60,11 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color:#de8e8a;
 }
 
 #menu > li {
-    display: inline;
+    display: inline-flex;
 }
 
 #menu > a {
@@ -76,7 +75,15 @@ nav {
 }
 
 .active {
-    color: #ffffff;
+    border-bottom: 1px solid #401c04;
+}
+
+nav input, nav label {
+    display: none;
+}
+
+.nav-menu-icon {
+    display: none;
 }
 
 /* So Hum Website meaning styling */
@@ -473,7 +480,7 @@ footer {
 
 /* Media query: large or landscape phones (320px and up) */
 
-@media screen and (min-width: 320px) { 
+@media screen and (max-width: 320px) { 
 
     header {
         max-width: 100%;
@@ -481,8 +488,65 @@ footer {
     }
 
   /* Navigation menu */
-    
 
+  nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  /* Stlying the menu icon, the checkbox stays hidden */
+  .nav-menu-icon {
+    text-align: right;
+    display: block;
+    padding: 0.5em;
+    line-height: 1.6em;
+    align-self: center;
+  }
+
+  /* Because we are in mobile mode, we want to display it as a vertical list */
+  #menu {
+    display: block;
+  }
+
+  #menu > li {
+    margin-bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding: 0.5em;
+  }
+  
+  
+  
+  
+  /*nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+    }  
+
+    input[type='checkbox']:not(:checked)+ul {
+        display: none;
+    }
+
+    nav label {
+        text-align: right;
+        display: block;
+        padding: 0.5em;
+        line-height: 1.6em;
+        align-self: center;
+    }
+
+     /* Displays menu as vertical row */
+     /*nav ul {
+        display: block;
+    }*/
 
     /* HOME PAGE Main content positioning */
 
@@ -606,7 +670,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     
     /* Navigation menu */
     
@@ -732,17 +796,9 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 
-@media screen and (min-width:992px) {
+@media screen and (max-width:992px) {
 
     /*HOME PAGE */
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #nav-toggle {
-        display: none;
-    }
 
 }
 
