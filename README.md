@@ -1,4 +1,4 @@
-# # Project Portfolio 1 - So Hum 
+# Project Portfolio 1 - So Hum 
 ## A meditation for beginners website with a fictional meditation group 
 ### PP1 - Amy Rixon - 19/04/2024
 

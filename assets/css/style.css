@@ -86,10 +86,10 @@ nav {
     text-transform: lowercase;
     margin-top: 70px;
     padding: 5px 10px;
-    display: flex;
+    /*display: flex;
     align-items: baseline;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: row;*/
 }
 
 /* Home Page */
@@ -221,47 +221,47 @@ nav {
 }
 
 .postures {
-flex: 1 0 auto;
-display: flex;
+    flex: 1 0 auto;
+    display: flex;
 }
 
 .postures-a {
-display: flex; 
-flex-direction: row;
-justify-content: space-around;
-align-items: flex-start;
-background-color: rgba(255, 255, 255, 0.8);
-text-wrap: wrap;
-text-align: center;
-align-items: center;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-wrap: wrap;
+    text-align: center;
+    align-items: center;
 }
 
 .postures-b {
-display: flex; 
-flex-direction: row-reverse;
-justify-content: space-around;
-align-items: flex-start;
-background-color: rgba(255, 255, 255, 0.8);
-text-wrap: wrap;
-text-align: center;
-align-items: center;
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-wrap: wrap;
+    text-align: center;
+    align-items: center;
 }
 
 #postures-image {
-max-width: 50%;
+    max-width: 50%;
 }
 
 #postures-a, #postures-b {
-max-width: 50%;
-padding: 0 25px;
+    max-width: 50%;
+    padding: 0 25px;
 }
 
 #postures-a > h4, #postures-b > h4 {
-font-size: 200%;
+    font-size: 200%;
 }
 
 #postures-a > h5, #postures-b > h5 {
-font-size: 120%;
+    font-size: 120%;
 }
 
 /* TECHNIQUES PAGE */ 
@@ -329,18 +329,18 @@ main {
 }
 
 .noting-parallax {
-       /*main image*/
-       background: url(../images/meditation-hands-sun.jpg) no-repeat center center/cover;
+    /*main image*/
+    background: url(../images/meditation-hands-sun.jpg) no-repeat center center/cover;
 
-       /*specific height*/
-       min-height: 500px;
-       width: 100%;
-   
-       /* parallax scrolling effect */
-       background-attachment: fixed;
-       background-position: center;
-       background-repeat: no-repeat;
-       background-size: cover;
+    /*specific height*/
+    min-height: 500px;
+    width: 100%;
+
+    /* parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .techniques {
@@ -363,7 +363,6 @@ main {
 
 #techniques-text {
     text-wrap: wrap;
-    /*border: 2px solid #401c04;*/
     width: 25%;
     text-align: center;
     line-height: 30px;
@@ -482,11 +481,11 @@ footer {
 
   /* Navigation menu */  
 
-  nav {
-    font-size: 90%;
-    background-color: #de8e8a;
-    position: absolute;
-  }
+    nav {
+        font-size: 90%;
+        background-color: #de8e8a;
+        position: absolute;
+    }
 
     #menu {
         display: flex;
@@ -532,36 +531,36 @@ footer {
     /* POSTURES */
 
     .postures {
-    flex: 1 0 auto;
-    display: flex;
+        flex: 1 0 auto;
+        display: flex;
     }
 
     .postures-a, .postures-b {
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    background-color: rgba(255, 255, 255, 0.8);
-    text-wrap: wrap;
-    text-align: center;
-    align-items: center;
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        background-color: rgba(255, 255, 255, 0.8);
+        text-wrap: wrap;
+        text-align: center;
+        align-items: center;
     }
 
     #postures-image {
-    max-width: 100%;
+        max-width: 100%;
     }
 
     #postures-a, #postures-b {
-    max-width: 100%;
-    padding: 0 25px;
+        max-width: 100%;
+        padding: 0 25px;
     }
 
     #postures-a > h4, #postures-b > h4 {
-    font-size: 150%;
+        font-size: 150%;
     }
 
     #postures-a > h5, #postures-b > h5 {
-    font-size: 100%;
+        font-size: 100%;
     }
 
     /* TECHNIQUES CONTENT */
@@ -631,15 +630,15 @@ footer {
         position: absolute;
       }
     
-        #menu {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            text-align: right;
-            padding: 8px 20px;
-            line-height: 25px;
-            top: 35px;
-        }
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: right;
+        padding: 8px 20px;
+        line-height: 25px;
+        top: 35px;
+    }
     /*HOME PAGE*/
 
     .welcome-photo-parallax {
@@ -672,12 +671,12 @@ footer {
 
      /* POSTURES */
 
-     .postures {
+    .postures {
         flex: 1 0 auto;
         display: flex;
-        }
-    
-        .postures-a, .postures-b {
+    }
+
+    .postures-a, .postures-b {
         display: flex; 
         flex-direction: column;
         justify-content: space-around;
@@ -686,26 +685,26 @@ footer {
         text-wrap: wrap;
         text-align: center;
         align-items: center;
-        }
-    
-        #postures-image {
+    }
+
+    #postures-image {
         max-width: 100%;
-        }
-    
-        #postures-a, #postures-b {
+    }
+
+    #postures-a, #postures-b {
         max-width: 100%;
         padding: 0 25px;
-        }
-    
-        #postures-a > h4, #postures-b > h4 {
-        font-size: 150%;
-        }
-    
-        #postures-a > h5, #postures-b > h5 {
-        font-size: 100%;
-        }
+    }
 
-        /* TECHNIQUES CONTENT */
+    #postures-a > h4, #postures-b > h4 {
+        font-size: 150%;
+    }
+
+    #postures-a > h5, #postures-b > h5 {
+        font-size: 100%;
+    }
+
+    /* TECHNIQUES CONTENT */
 
     #getting-started-text > h4, #postures-introduction > h4 {
         font-size: 120%;
@@ -757,6 +756,6 @@ footer {
         padding: 15px 25px;
     }
 
-        }
+    }
 
 
