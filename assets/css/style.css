@@ -473,7 +473,7 @@ footer {
 
 /* Media query: large or landscape phones (320px and up) */
 
-@media screen and (max-width: 330px) { 
+@media screen and (max-width: 320px) { 
 
     header {
         max-width: 100%;
@@ -482,6 +482,21 @@ footer {
 
   /* Navigation menu */  
 
+  nav {
+    font-size: 90%;
+    background-color: #de8e8a;
+    position: absolute;
+  }
+
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: right;
+        padding: 15px 20px;
+        line-height: 20px;
+        top: 40px;
+    }
  
     
     /* HOME PAGE Main content positioning */
@@ -610,7 +625,21 @@ footer {
     
     /* Navigation menu */
     
+    nav {
+        font-size: 90%;
+        background-color: #de8e8a;
+        position: absolute;
+      }
     
+        #menu {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: right;
+            padding: 8px 20px;
+            line-height: 25px;
+            top: 35px;
+        }
     /*HOME PAGE*/
 
     .welcome-photo-parallax {
@@ -733,8 +762,6 @@ footer {
 /* Large devices (laptops and desktops, 992px and up) */
 
 @media screen and (max-width:992px) {
-
-    /*HOME PAGE */
 
 }
 
