@@ -506,7 +506,7 @@ footer {
 
     .welcome-photo-parallax {
         /*main image*/
-        background: url(../images/Main_background_image.jpg) no-repeat center center/cover;
+        background: url(../images/home-opening.webp) no-repeat center center/cover;
 
         /*specific height*/
         min-height: 800px;
@@ -653,7 +653,7 @@ footer {
 
     .welcome-photo-parallax {
         /*main image*/
-        background: url(../images/Main_background_image.jpg) no-repeat center center/cover;
+        background: url(../images/home-opening.webp) no-repeat center center/cover;
 
         /*specific height*/
         min-height: 800px;
