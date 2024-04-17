@@ -702,20 +702,20 @@ footer {
         align-items: center;
     }
 
-    #postures-image {
+    .postures-image {
         max-width: 100%;
     }
 
-    #postures-a, #postures-b {
+    .postures-text-right, .postures-text-left {
         max-width: 100%;
         padding: 0 25px;
     }
 
-    #postures-a > h4, #postures-b > h4 {
+    .postures-text-right h4, .postures-text-left h4 {
         font-size: 150%;
     }
 
-    #postures-a > h5, #postures-b > h5 {
+    .postures-text-right h5, .postures-text-left h5 {
         font-size: 100%;
     }
 
