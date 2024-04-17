@@ -98,7 +98,7 @@ nav {
 
 .welcome-photo-parallax {
     /*main image*/
-    background: url(../images/Main_background_image.jpg) no-repeat center center/cover;
+    background: url(../images/home-opening.webp) no-repeat center center/cover;
 
     /*specific height*/
     min-height: 800px;
@@ -113,7 +113,7 @@ nav {
 
 .roots-parallax {
     /*main image*/
-    background: url(../images/lotus-flower.jpg) no-repeat center center/cover;
+    background: url(../images/lotus-flower.webp) no-repeat center center/cover;
 
     /*specific height*/
     min-height: 800px;
@@ -129,7 +129,7 @@ nav {
 
 .benefits-parallax {
     /*main image*/
-    background: url(../images/Main_monk_hands.jpg) no-repeat center center/cover;
+    background: url(../images/main-monk-hands.webp) no-repeat center center/cover;
 
     /*specific height*/
     min-height: 800px;
@@ -145,7 +145,7 @@ nav {
 
 .journey-parallax, .sign-up-parallax  {
     /*main image*/
-    background: url(../images/path.jpg) no-repeat center center/cover;
+    background: url(../images/path.webp) no-repeat center center/cover;
 
     /*specific height*/
     min-height: 800px;
@@ -208,7 +208,7 @@ nav {
 
 .postures-intro-parallax {
     /*main image*/
-    background: url(../images/buddha.jpg) no-repeat center center/cover;
+    background: url(../images/buddha.webp) no-repeat center center/cover;
 
     /*specific height*/
     min-height: 800px;
@@ -273,7 +273,7 @@ nav {
 
 .getting-started  {
     /*main image*/
-    background: url(../images/getting-started.jpg) no-repeat center center/cover;
+    background: url(../images/getting-started.webp) no-repeat center center/cover;
 
     /*specific height*/
     min-height: 800px;
@@ -301,7 +301,7 @@ nav {
 
 .counting-parallax {
     /*main image*/
-    background: url(../images/counting.jpg) no-repeat center center/cover;
+    background: url(../images/counting.webp) no-repeat center center/cover;
 
     /*specific height*/
     min-height: 500px;
@@ -316,7 +316,7 @@ nav {
 
 .focus-parallax {
     /*main image*/
-    background: url(../images/Candle.jpg) no-repeat center center/cover;
+    background: url(../images/candle.webp) no-repeat center center/cover;
 
     /*specific height*/
     min-height: 500px;
@@ -331,7 +331,7 @@ nav {
 
 .noting-parallax {
     /*main image*/
-    background: url(../images/meditation-hands-sun.jpg) no-repeat center center/cover;
+    background: url(../images/meditation-hands-sun.webp) no-repeat center center/cover;
 
     /*specific height*/
     min-height: 500px;
@@ -385,11 +385,11 @@ nav {
 
 /*SIGN UP PAGE*/
 
-/*main {
+main {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
-} */
+} 
 
 #sign-up {
     color: #401c04;
