@@ -97,8 +97,10 @@ IMAGE OF POSTURES PAGE
 	IMAGE OF SIGN UP PAGE 
 
 	The sign up page for the website has a clear heading to detail why and what the user is signing up for. As it was important to have relevant digital contact information only the email address and a location is asked for to determine where the user is located. Radio buttons were used to have the user select when and how often they wish to join the group meditations. Each field is required and has been tested before submission that all must be completed before submission. 
-	The parallax image used on the home page is used again on this page as the two sections are linked together and gives the user a visual link. 
-	The submit button has a hover over feature to change colour to show the user that they are about to click the link to submit. 
+	
+    The parallax image used on the home page is used again on this page as the two sections are linked together and gives the user a visual link. 
+	
+    The submit button has a hover over feature to change colour to show the user that they are about to click the link to submit. 
 
 
 
@@ -118,7 +120,8 @@ IMAGE OF POSTURES PAGE
 	I would like to have a video with subtitles accompanying each posture to give the user a live follow along to see how to get into each posture with clear instructions on variations and who these variations are good for. 
 
 	I would have liked to have had more consistent images of the same person or a more diverse range of people demonstrating each posture to show that meditation is for everyone. 
-	I would have liked to include a link to a business willing to be associated with the website who can sell the user props with a discount code link from this website. 
+	
+    I would have liked to include a link to a business willing to be associated with the website who can sell the user props with a discount code link from this website. 
 
 ### Techniques 
 
@@ -135,3 +138,4 @@ IMAGE OF POSTURES PAGE
 
 
 ### Technology used 
+
