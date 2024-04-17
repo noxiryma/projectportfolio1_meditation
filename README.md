@@ -32,9 +32,11 @@ The colour scheme I chose for this website is one that is both warm, earthy and 
 
 The colours I chose were aided with the help of the website **[Color Mind](http://colormind.io/)** and the details of the three colours I chose for the content are as follows:
 
-A dark brown with a warm undertone: #401c04
-A terracota pink: #de8e8a
-Plain white: #ffffff
+![Color wheel screenshot](assets/images/readme-images/color-wheel.jpg)
+
+>A dark brown with a warm undertone: #401c04
+>A terracota pink: #de8e8a
+>Plain white: #ffffff
 
 Images used for the website also compliment the main colour scheme of the design with rich warm tones and have a good contrast so the pictures are seen clearly. 
 
@@ -44,7 +46,13 @@ The font family used for this site is
 
 "Montserrat Alternates", sans-serif; 
 
+![Montserrat Alternates 400 screenshot](assets/images/readme-images/montserrat-400.jpg)
+
 with a weight of 400 for the main content and a weight of 700 for the title header. Used to imply a logo for the site and give a clear heading.
+
+![Montserrat Alternates 700 screenshot](assets/images/readme-images/montserrat-700.jpg)
+
+
 The font was chosen for it’s accessibility as well as it’s design. The text is clear to read and has a more rounded style creating a smooth and relaxing experience for the user whilst they read and learn new information on the subject of meditation. 
 
 
@@ -66,20 +74,40 @@ I experimented in the building of the website with flipcards for the postures pa
 
 ### index.html 
 
-The home page header contains a link to the home page with the title of the website. A favicon is used in the tab title of the webpage of a person sat in a meditation posture (an iconic visual link to the subject of the website). The navigation bar is positioned to the right, written in a list format in html and styled in css to display inline. There was spacing added between each of the links to make the text and title of each link clear as to where the user is navigating too with a border bottom feature added in css to highlight which page the user is currently on. A hover over feature has also been written to show the user which link they are about to click. 
+![Home Page screenshot](assets/images/readme-images/home-laptop.jpg)
+
+The home page header contains a link to the home page with the title of the website. A favicon is used in the tab title of the webpage of a person sat in a meditation posture (an iconic visual link to the subject of the website). The navigation bar is positioned to the right, written in a list format in html and styled in css to display inline. 
+
+![Home Page header screenshot](assets/images/readme-images/header.jpg)
+
+There was spacing added between each of the links to make the text and title of each link clear as to where the user is navigating too with a border bottom feature added in css to highlight which page the user is currently on. A hover over feature has also been written to show the user which link they are about to click. 
+
+
+In a responsive smaller screen from 320px to 768px the navigation menu moves to be stacked on top of one another but still with the feature of a border at the bottom of the active link. 
+
+![Home Page 320px screenshot](assets/images/readme-images/320-home.jpg)
 
 Each section of text is aligned to the centre with spacing between the lines of text added so it is clear and easy to read. 
 
+![Home page roots of meditation screenshot](assets/images/readme-images/home-page-content.jpg)
+
 The parallax feature encourages the user to keep scrolling down to the bottom of the page and the final image links with the sign up page as this section encourages the user to sign up to join group meditations which is a service this website offers for beginners. There is an internal link to the sign up page in this section. 
+
+![Home Page last section screenshot and footer](assets/images/readme-images/home-page-footer.jpg)
+
+The footer contains links to social media websites where if this was an official website there would be a direct link to their pages demonstrating different techniques of meditation and motivation for the user. 
 
 ### postures.html 
 
-
-IMAGE OF POSTURES PAGE 
+![Postures page screenshot](assets/images/readme-images/postures-top.jpg)
 
 The second page of the website was originally going to be regarding techniques but on thought of the layout of information it is better to be in the correct posture before implementing the practice. 
 
+![Postures page content screenshot](assets/images/readme-images/postures-content.jpg)
+
 The layout of this page starts with a parallax and then displays clear images of each posture and has a rule of three in regards to the information given. Each section apart from the first and last has 3 subtitles of the subject clearly stated. Displaying what the posture is and the benefit, the method of getting into the posture and a variation should the user wish to make this posture more comfortable for them. 
+
+![Postures page content screenshot responsive](assets/images/readme-images/320-postures.jpg)
 
 In the responsive smaller screens the images are placed to fit the width of the screen and as the opening of each new posture. This was altered in the media query for screens up to the size of 768px. 
 
