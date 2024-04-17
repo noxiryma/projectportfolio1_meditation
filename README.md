@@ -182,7 +182,7 @@ For the responsive smaller screens I would have liked to have had the radio butt
 
 ### Technology used  
 
-### HTML
+### HTML
 
 Used to build the structure of the web pages 
 
@@ -206,14 +206,14 @@ For the selection and use of a font style for the website
 **Testing for links and form** 
 
 | Test | Outcome |
-|— | — |
+|--|--|
 | All internal links lead to the correct page | Yes |
 | Footer social links all lead to a new tab opened to correct link | Yes |
 | Sign Up form submits when all information completed correctly | Yes |
 | Sign Up form does not submit when information completed incorrectly | Yes |
 
 **Testing for responsiveness**
-|—|—|
+|--|--|
 |Home, Postures, Techniques and Sign Up pages all display correctly on screens smaller than 768px | Yes |
 |Home, Postures, Techniques and Sign Up pages all display correctly on screens bigger than 768px | Yes |
 
