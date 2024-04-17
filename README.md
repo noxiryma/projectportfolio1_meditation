@@ -113,9 +113,11 @@ In the responsive smaller screens the images are placed to fit the width of the 
 
 ### techniques.html
 
-IMAGE OF TECHNIQUES PAGE 
+![Techniques page header screenshot](assets/images/readme-images/techniques-header.jpg)
 
-The postures page is more important to have a visual instruction aid whereas this page it was more important to portray the information for the user via text. So the parallax feature was reintroduced on this page and flex was used to design the layout of each section to make them align in columns of three. 
+The postures page is more important to have a visual instruction aid whereas this page it was more important to portray the information for the user via text. So the parallax feature was reintroduced on this page and flex was used to design the layout of each section to make them align in columns of three. The page starts off with an encouraging message for the user and an introduction to the approach they should have to meditation. In case the user skipped the postures page there is also an internal link in this introduction section called "Getting Started" to encourage them to head to that page. 
+
+![Techniques page screenshot of content](assets/images/readme-images/techniques-content.jpg) 
 
 Each new technique has a new parallax image to clearly show the user they are moving on to the next technique along with a clear to read centred heading for each section. 
 
