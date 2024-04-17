@@ -124,7 +124,7 @@ Each new technique has a new parallax image to clearly show the user they are mo
 
 ### signup.html 
 
-IMAGE OF SIGN UP PAGE 
+![Sign Up Page screenshot](assets/images/readme-images/signup.jpg)
 
 The sign up page for the website has a clear heading to detail why and what the user is signing up for. As it was important to have relevant digital contact information only the email address and a location is asked for to determine where the user is located. Radio buttons were used to have the user select when and how often they wish to join the group meditations. Each field is required and has been tested before submission that all must be completed before submission. 
 
@@ -132,6 +132,9 @@ The parallax image used on the home page is used again on this page as the two s
 
 The submit button has a hover over feature to change colour to show the user that they are about to click the link to submit. 
 
+![Sign Up PAge 320px Screenshot](assets/images/readme-images/320-signup.jpg)
+
+For a repsonsive screen the radio buttons move from being inline horizontally to being inline vertically. 
 
 
 ## Features left to implement
@@ -160,11 +163,9 @@ I would like to have had a audio file or a video with subtitles to demonstrate e
 
 ### Sign Up 
 
-I would have liked to include a gallery of the groups of people that currently meet for meditation practice. 
-
 I would have liked to include an interactive map to help the user locate their nearest meditation group.
 
-I would have liked to have had an information section on groups that are going to be appearing in new locations. 
+For the responsive smaller screens I would have liked to have had the radio buttons inline with their answers but still think the layout runs smoothly with the style of the website and the buttons are easy to identify their relationship to which answer. 
 
 
 ### Technology used 
