@@ -12,16 +12,14 @@
 
 ## Table of contents
 
-1. [ UX ](#ux)
+1. [ About ](#about)
 2. [ Features ](#features)  
 3. [ Features Left to Implement ](#left)  
 4. [ Technology used ](#tech) 
 5. [ Testing ](#testing)  
 6. [ Bugs ](#bugs)  
-7. [ Deployment](#deployment)
-8. [ Credits](#credits)
-9. [ Content](#content)  
-10. [ Acknowledgements](#acknowledgements)  
+7. [ Credits, Content and Resources](#credits)
+8. [ Acknowledgements](#acknowledgements)  
 
 
 
@@ -310,7 +308,7 @@ Some images did not deploy when changed to web format and identified file path w
 Icon for website not visible and too complicated in detail **fixed**
 
 
-## Credits & Resources 
+## Credits, Content & Resources 
 
 ### [w3 schools](https://www.w3schools.com/)
 
