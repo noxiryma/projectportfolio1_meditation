@@ -180,8 +180,7 @@ I would have liked to include an interactive map to help the user locate their n
 For the responsive smaller screens I would have liked to have had the radio buttons inline with their answers but still think the layout runs smoothly with the style of the website and the buttons are easy to identify their relationship to which answer. 
 
 
-### Technology used 
-##Technology used 
+### Technology used  
 
 ### HTML
 
@@ -193,7 +192,7 @@ To style the website
 
 ### Fontawesome 
 
-For the icons for the footer and the website icon 
+For the social media icons for the footer 
 
 ### Googlefonts
 
