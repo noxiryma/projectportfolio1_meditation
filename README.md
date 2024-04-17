@@ -24,7 +24,19 @@
 10. [ Acknowledgements](#acknowledgements)  
 
 
-## UX
+
+## About 
+
+I chose the Project Example Idea 03 from the Project Portfolio 1 because meditation is something I am passionate about. Having just completed my yoga teacher training where meditation techniques was one of the modules we studied. I felt I could pass on this knowledge and information by building it into a website. 
+
+I decided to create a website that was clear and concise about the instructions on how to begin meditating and gave the user simple techniques and postures to try and begin their meditation journey with. Because of my own meditation and yoga background I stress the importance of being comfortable as a practitioner as an uncomfortable meditation can lead to an unpleasant experience. It also runs the risk of injury over time. 
+
+I included a brief history and benefits section to give more depth to the reason for wanting to become a meditator but also to show that it is accessible to everyone anywhere. So there’s no excuse not to try it! 
+
+My main focus for the design was to create a calming user experience. I implemented a simple design structure and brought my creative abilities to the front in the layout of the design. I am passionate about photography too so chose to include pictures that are pleasing to the eye whilst complementing the colour scheme of the website. I tried to avoid loud and harsh colours and create a softer toned approach to the overall look. As meditation is a journey a lot of imagery is about choosing to start that journey by taking that path or looking out at the route you’re about to take as a meditation practitioner. 
+
+There is also an element of joy and inclusion in the website by encouraging the user to sign up to a group meditation through the sign up page. Which gives the user a feel of community and should encourage them to continue with their practice. 
+
 
 ### Colour Scheme 
 
@@ -169,4 +181,227 @@ For the responsive smaller screens I would have liked to have had the radio butt
 
 
 ### Technology used 
+##Technology used 
 
+### HTML
+
+Used to build the structure of the web pages 
+
+### CSS 
+
+To style the website 
+
+### Fontawesome 
+
+For the icons for the footer and the website icon 
+
+### Googlefonts
+
+For the selection and use of a font style for the website 
+
+
+
+
+## Testing 
+
+**Testing for links and form** 
+
+| Test | Outcome |
+|— | — |
+| All internal links lead to the correct page | Yes |
+| Footer social links all lead to a new tab opened to correct link | Yes |
+| Sign Up form submits when all information completed correctly | Yes |
+| Sign Up form does not submit when information completed incorrectly | Yes |
+
+**Testing for responsiveness**
+|—|—|
+|Home, Postures, Techniques and Sign Up pages all display correctly on screens smaller than 768px | Yes |
+|Home, Postures, Techniques and Sign Up pages all display correctly on screens bigger than 768px | Yes |
+
+## HTML Validation Testing 
+
+No errors were presented upon final testing in [HTML validator](https://validator.w3.org/). 
+
+### index.html 
+
+![Index Testing Screenshot](assets/images/readme-images/html-index.jpg)
+
+Results - no errors 
+
+### postures.html 
+
+![Postures Testing Screenshot](assets/images/readme-images/html-postures.jpg)
+
+Results - no errors
+
+### techniques.html 
+
+![Techniques Testing Screenshot](assets/images/readme-images/html-techniques.jpg)
+
+Results - no errors 
+
+### signup.html 
+
+![Sign Up Testing Screenshot](assets/images/readme-images/html-signup.jpg)
+
+Results - no errors 
+
+
+## CSS Validation Testing 
+
+No errors were presented upon final testing in [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+![CSS Index Testing Screenshot](assets/images/readme-images/css-index.jpg)
+
+Results - no errors 
+
+### postures.html 
+
+![CSS Postures Testing Screenshot](assets/images/readme-images/css-postures.jpg)
+
+Results - no errors
+
+### techniques.html 
+
+![CSS Techniques Testing Screenshot](assets/images/readme-images/css-techniques.jpg)
+
+Results - no errors 
+
+### signup.html 
+
+![CSS Sign Up Testing Screenshot](assets/images/readme-images/css-signup.jpg)
+
+Results - no errors
+
+
+## Google Lighthouse Testing 
+
+### index.html 
+
+![Google Lighthouse Testing Index](assets/images/readme-images/lighthouse-index.jpg)
+
+### postures.html 
+
+![Google Lighthouse Testing Postures](assets/images/readme-images/lighthouse-postures.jpg)
+
+### techniques.html 
+
+![Google Lighthouse Testing Techniques](assets/images/readme-images/lighthouse-techniques.jpg)
+
+### signup.html 
+
+![Google Lighthouse Testing Sign Up](assets/images/readme-images/lighthouse-signup.jpg)
+
+## Safari 
+
+Also tested the website on Safari and found the parallax does not flow as smoothly and jumps. The layout of the page remains consistent with other applications used (Firefox and Chrome). 
+
+## Bugs 
+
+Navigation menu in 320px screen size was creating screen gap and covering “So Hum” title **fixed**
+
+Movement of techniques page below header whilst on mobile screen size of 320px **fixed**
+
+Improved lighthouse testing by compressing images using web converter tool but still low on performance **partial fix**
+
+Image for seated posture did not demonstrate posture clearly **fixed**
+
+Some images did not deploy when changed to web format and identified file path was wrong in media query **fixed**
+
+Icon for website not visible and too complicated in detail **fixed**
+
+
+## Credits & Resources 
+
+### [w3 schools](https://www.w3schools.com/)
+
+Used for general tips and instructions on writing HTML and CSS 
+
+### [Flexbox Froggy](https://flexboxfroggy.com/)
+
+For experimenting with flex properties used in this website 
+
+### [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI%2B-%2BUK%2B-%2BSearch%2B-%2BBrand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641240&hsa_ad=635720257674&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMIysPPieLJhQMVl5VQBh2ZVQSEEAAYASAAEgJOn_D_BwE&nab=1&utm_referrer=https%3A%2F%2Fwww.google.com%2F) 
+
+Project created through education for Project Portfolio 1 of the Full Stack Software Developer Diploma 
+
+### [Font Awesome](https://fontawesome.com/)
+
+Icons for the footer were taken from the Font Awesome website 
+
+### [Google Fonts](https://fonts.google.com/specimen/Quicksand?preview.text=So%20Hum)
+
+Font selected for website was taken from Google Fonts website 
+
+### [Love Running Project](https://github.com/noxiryma/love_running_project)
+
+Used as reference and for tips when writing HTML and CSS 
+
+
+
+
+## Images
+
+I used a number of sources to find the correct images for this website that complimented each other and continued with the theme of mediation throughout. Below are the direct links to the images used and a list of the sites I used. 
+
+Upon searching for the correct images for the postures I found finding the relevant content that displayed the correct relationship with the posture and the text accompanying it quite tricky. If I was to build this website in future for a potential client I would arrange to have images taken specifically for the website thus keeping a continuous look and style throughout. 
+
+[Pixabay](https://pixabay.com/)
+
+[Unsplash](https://unsplash.com/)
+
+[Pexels](https://www.pexels.com/)
+
+[Freepik](https://www.freepik.com/)
+
+## index.html
+
+[Welcome image](https://pixabay.com/photos/balance-stones-stack-110850/)
+
+[Lotus flower](https://pixabay.com/photos/flower-lotus-pond-white-flower-8173078/)
+
+[Meditation monk hands](https://pixabay.com/photos/monk-hands-zen-faith-person-male-555391/)
+
+
+## postures.html
+
+[Opening image](https://unsplash.com/photos/black-and-grey-buddha-statue-on-top-of-hill-88IMbX3wZmI)
+
+[Conditioning](https://www.pexels.com/photo/a-woman-doing-a-meditation-on-a-tree-log-during-morning-8964938/)
+
+[Seated](https://www.pexels.com/photo/healthy-woman-relaxation-garden-6787202/)
+
+
+[Lying down](https://www.freepik.com/free-photo/young-yogi-attractive-woman-savasana-pose-white-loft-backgro_1282145.htm#fromView=search&page=1&position=1&uuid=62c50582-f6c8-4894-a20c-e165bbac61b9)
+
+[Standing](https://www.pexels.com/photo/woman-in-standing-savasana-pose-6298334/)
+
+[Props](https://unsplash.com/photos/brown-leather-bean-bag-chair-9bPXsEgrdcg)
+
+
+## techniques.html
+
+[Getting started]( https://unsplash.com/photos/woman-sitting-on-cliff-overlooking-mountains-during-daytime-Zf0-90SpDD0)
+
+
+[Counting](https://www.pexels.com/photo/close-up-shot-of-a-person-in-a-mudra-pose-6958260/)
+
+[Focus](https://unsplash.com/photos/round-ceramic-bowl-with-lighted-candle-Pg2jm-PMVWs)
+
+[Noting](https://pixabay.com/photos/yoga-meditation-vipassana-person-4849683/)
+
+
+## Icon 
+
+The icon I used for the website was sourced from [Free Images](https://www.freeimages.com/a8af63a9-f3b2-4e6a-bf10-79323bd457ef) and was converted into a favicon using the [Favicon Generator](https://favicon.io/favicon-converter/). 
+
+
+## Acknowledgements 
+
+### Alan Bushell 
+
+Appointed as my mentor for my diploma. Alan gave me valuable feedback and answered every question that I had whilst giving encouragement and introduced me to a number of resources that I will use throughout my software career. 
+
+### Stuart Crang 
+
+Thank you for helping me start this journey.  
