@@ -17,9 +17,10 @@
 3. [ Features Left to Implement ](#left)  
 4. [ Technology used ](#tech) 
 5. [ Testing ](#testing)  
-6. [ Bugs ](#bugs)  
-7. [ Credits, Content and Resources](#credits)
-8. [ Acknowledgements](#acknowledgements)  
+6. [ Deployment ](#deployment)
+7. [ Bugs ](#bugs)  
+8. [ Credits, Content and Resources](#credits)
+9. [ Acknowledgements](#acknowledgements)  
 
 
 <a name="about"></a>
@@ -285,6 +286,17 @@ No errors were presented upon final testing in [CSS Validator](https://jigsaw.w3
 ## Safari 
 
 Also tested the website on Safari and found the parallax does not flow as smoothly and jumps. The layout of the page remains consistent with other applications used (Firefox and Chrome). 
+
+<a name="deployment"></a>
+## Deployment 
+
+I deployed the project to GitHub pages using the following steps:
+
++ In the GitHub repository, navigate to the Settings tab
++ From the source section drop-down menu, select the Master Branch
++ Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here: https://noxiryma.github.io/projectportfolio1_meditation/index.html
 
 <a name="bugs"></a>
 ## Bugs  
