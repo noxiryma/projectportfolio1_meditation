@@ -215,6 +215,7 @@ For the selection and use of a font style for the website
 | Sign Up form does not submit when information completed incorrectly | Yes |
 
 **Testing for responsiveness**
+| Test | Outcome |
 |--|--|
 |Home, Postures, Techniques and Sign Up pages all display correctly on screens smaller than 768px | Yes |
 |Home, Postures, Techniques and Sign Up pages all display correctly on screens bigger than 768px | Yes |
