@@ -228,25 +228,20 @@ No errors were presented upon final testing in [HTML validator](https://validato
 
 ![Index Testing Screenshot](assets/images/readme-images/html-index.jpg)
 
-Results - no errors 
 
 ### postures.html 
 
 ![Postures Testing Screenshot](assets/images/readme-images/html-postures.jpg)
 
-Results - no errors
 
 ### techniques.html 
 
 ![Techniques Testing Screenshot](assets/images/readme-images/html-techniques.jpg)
 
-Results - no errors 
 
 ### signup.html 
 
 ![Sign Up Testing Screenshot](assets/images/readme-images/html-signup.jpg)
-
-Results - no errors 
 
 
 ## CSS Validation Testing 
@@ -255,25 +250,18 @@ No errors were presented upon final testing in [CSS Validator](https://jigsaw.w3
 
 ![CSS Index Testing Screenshot](assets/images/readme-images/css-index.jpg)
 
-Results - no errors 
-
 ### postures.html 
 
 ![CSS Postures Testing Screenshot](assets/images/readme-images/css-postures.jpg)
-
-Results - no errors
 
 ### techniques.html 
 
 ![CSS Techniques Testing Screenshot](assets/images/readme-images/css-techniques.jpg)
 
-Results - no errors 
 
 ### signup.html 
 
 ![CSS Sign Up Testing Screenshot](assets/images/readme-images/css-signup.jpg)
-
-Results - no errors
 
 
 ## Google Lighthouse Testing 
@@ -299,7 +287,7 @@ Results - no errors
 Also tested the website on Safari and found the parallax does not flow as smoothly and jumps. The layout of the page remains consistent with other applications used (Firefox and Chrome). 
 
 <a name="bugs"></a>
-## Bugs 
+## Bugs  
 
 Navigation menu in 320px screen size was creating screen gap and covering “So Hum” title **fixed**
 
@@ -385,7 +373,6 @@ Upon searching for the correct images for the postures I found finding the relev
 ## techniques.html
 
 [Getting started]( https://unsplash.com/photos/woman-sitting-on-cliff-overlooking-mountains-during-daytime-Zf0-90SpDD0)
-
 
 [Counting](https://www.pexels.com/photo/close-up-shot-of-a-person-in-a-mudra-pose-6958260/)
 
