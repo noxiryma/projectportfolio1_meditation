@@ -44,9 +44,9 @@ The colours I chose were aided with the help of the website **[Color Mind](http:
 
 ![Color wheel screenshot](assets/images/readme-images/color-wheel.jpg)
 
->A dark brown with a warm undertone: #401c04
->A terracota pink: #de8e8a
->Plain white: #ffffff
+A dark brown with a warm undertone: #401c04
+A terracota pink: #de8e8a
+Plain white: #ffffff
 
 Images used for the website also compliment the main colour scheme of the design with rich warm tones and have a good contrast so the pictures are seen clearly. 
 
@@ -75,11 +75,11 @@ The initial design for the website was to have a main banner image at the introd
 ## Flex 
 
 
-Whilst I wanted to include this parallax feature throughout the website the postures.html page was an important page to have the images displayed clearly as the demonstrate information that the user would need to access. Not being able to see the visual information clearly this could lead the user to practicing the postures incorrectly and would go on to cause discomfort or injury over time. 
+Whilst I wanted to include this parallax feature throughout the website the postures.html page was an important page to have the images displayed clearly as they demonstrate information that the user would need to access. Not being able to see the visual information clearly could lead the user to practicing the postures incorrectly and would go on to cause discomfort or injury over time. 
 
-The images were aligned on the page using flex in css and are balanced through the page with images alternating positions on the page to demonstrate a new posture to try and section of information. 
+The images were aligned on the page using flex in css and are balanced through the page with images and text alternating positions on the page to show a new section of information. 
 
-I experimented in the building of the website with flipcards for the postures page but because it was important to include all the information regarding each posture along with their variations. The flipcards were too small but also didn’t fit the flow of the website so I chose to use the above method instead in portraying this information. 
+I experimented in the building of the website with flipcards for the postures page but because it was important to include all the information regarding each posture along with their variations. The flipcards were not used as they were too small but also didn’t fit the flow of the website so I chose to use the above stated flex method instead in portraying this information. 
 
 
 ### index.html 
@@ -90,18 +90,22 @@ The home page header contains a link to the home page with the title of the webs
 
 ![Home Page header screenshot](assets/images/readme-images/header.jpg)
 
-There was spacing added between each of the links to make the text and title of each link clear as to where the user is navigating too with a border bottom feature added in css to highlight which page the user is currently on. A hover over feature has also been written to show the user which link they are about to click. 
+There was spacing added between each of the links to make the text and title of each link clear as to where the user is navigating to with a border bottom feature added in css to highlight which page the user is currently on. A hover over feature has also been written to show the user which link they are about to click. 
 
 
 In a responsive smaller screen from 320px to 768px the navigation menu moves to be stacked on top of one another but still with the feature of a border at the bottom of the active link. 
 
 ![Home Page 320px screenshot](assets/images/readme-images/320-home.jpg)
 
-Each section of text is aligned to the centre with spacing between the lines of text added so it is clear and easy to read. 
+Each section of text is aligned to the centre with spacing between the lines of text added so it is clear and easy to read whilst also being easy to navigate through touch screen. 
 
 ![Home page roots of meditation screenshot](assets/images/readme-images/home-page-content.jpg)
 
-The parallax feature encourages the user to keep scrolling down to the bottom of the page and the final image links with the sign up page as this section encourages the user to sign up to join group meditations which is a service this website offers for beginners. There is an internal link to the sign up page in this section. 
+The parallax feature encourages the user to keep scrolling down to the bottom of the page.
+
+![Sign Up Section on Home Page Screenshot](assets/images/readme-images/signup-section-home.jpg)
+
+The final image links with the sign up page as this section encourages the user to sign up to join group meditations which is a service this website offers for beginners. There is an internal link to the sign up page in this section. 
 
 ![Home Page last section screenshot and footer](assets/images/readme-images/home-page-footer.jpg)
 
