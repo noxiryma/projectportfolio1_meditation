@@ -98,7 +98,7 @@ nav {
 
 .welcome-photo-parallax {
     /*main image*/
-    background: url(../images/home-opening.webp) no-repeat center center/cover;
+    background: url(../images/home-opening.webp);
 
     /*specific height*/
     min-height: 800px;
