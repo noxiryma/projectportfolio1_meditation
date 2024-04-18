@@ -129,7 +129,7 @@ nav {
 
 .benefits-parallax {
     /*main image*/
-    background: url(../images/main-monk-hands.webp);
+    background: url(../images/home-monk-hands.webp);
 
     /*specific height*/
     min-height: 800px;
@@ -208,7 +208,7 @@ nav {
 
 .postures-intro-parallax {
     /*main image*/
-    background: url(../images/buddha.webp);
+    background: url(../images/postures-opening.webp);
 
     /*specific height*/
     min-height: 800px;
