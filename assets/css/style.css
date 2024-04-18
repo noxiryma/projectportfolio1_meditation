@@ -129,7 +129,7 @@ nav {
 
 .benefits-parallax {
     /*main image*/
-    background: url(../images/main-monk-hands.webp) no-repeat center center/cover;
+    background: url(../images/main-monk-hands.webp);
 
     /*specific height*/
     min-height: 800px;
@@ -145,7 +145,7 @@ nav {
 
 .journey-parallax, .sign-up-parallax  {
     /*main image*/
-    background: url(../images/path.webp) no-repeat center center/cover;
+    background: url(../images/path.webp);
 
     /*specific height*/
     min-height: 800px;
@@ -208,7 +208,7 @@ nav {
 
 .postures-intro-parallax {
     /*main image*/
-    background: url(../images/buddha.webp) no-repeat center center/cover;
+    background: url(../images/buddha.webp);
 
     /*specific height*/
     min-height: 800px;
@@ -273,7 +273,7 @@ nav {
 
 .getting-started  {
     /*main image*/
-    background: url(../images/getting-started.webp) no-repeat center center/cover;
+    background: url(../images/getting-started.webp);
 
     /*specific height*/
     min-height: 800px;
@@ -301,7 +301,7 @@ nav {
 
 .counting-parallax {
     /*main image*/
-    background: url(../images/counting.webp) no-repeat center center/cover;
+    background: url(../images/counting.webp);
 
     /*specific height*/
     min-height: 500px;
@@ -316,7 +316,7 @@ nav {
 
 .focus-parallax {
     /*main image*/
-    background: url(../images/candle.webp) no-repeat center center/cover;
+    background: url(../images/candle.webp);
 
     /*specific height*/
     min-height: 500px;
@@ -331,7 +331,7 @@ nav {
 
 .noting-parallax {
     /*main image*/
-    background: url(../images/meditation-hands-sun.webp) no-repeat center center/cover;
+    background: url(../images/meditation-hands-sun.webp);
 
     /*specific height*/
     min-height: 500px;
@@ -506,7 +506,7 @@ footer {
 
     .welcome-photo-parallax {
         /*main image*/
-        background: url(../images/home-opening.webp) no-repeat center center/cover;
+        background: url(../images/home-opening.webp);
 
         /*specific height*/
         min-height: 800px;
@@ -653,7 +653,7 @@ footer {
 
     .welcome-photo-parallax {
         /*main image*/
-        background: url(../images/home-opening.webp) no-repeat center center/cover;
+        background: url(../images/home-opening.webp);
 
         /*specific height*/
         min-height: 800px;
