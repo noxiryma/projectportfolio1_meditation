@@ -22,7 +22,7 @@
 8. [ Acknowledgements](#acknowledgements)  
 
 
-
+<a name="about"></a>
 ## About 
 
 I chose the Project Example Idea 03 from the Project Portfolio 1 because meditation is something I am passionate about. Having just completed my yoga teacher training where meditation techniques was one of the modules we studied. I felt I could pass on this knowledge and information by building it into a website. 
@@ -65,7 +65,7 @@ with a weight of 400 for the main content and a weight of 700 for the title head
 
 The font was chosen for it’s accessibility as well as it’s design. The text is clear to read and has a more rounded style creating a smooth and relaxing experience for the user whilst they read and learn new information on the subject of meditation. 
 
-
+<a name="features"></a>
 ## FEATURES
 
 ## Parallax
@@ -146,7 +146,7 @@ The submit button has a hover over feature to change colour to show the user tha
 
 For a repsonsive screen the radio buttons move from being inline horizontally to being inline vertically. 
 
-
+<a name="left"></a>
 ## Features left to implement
 
 ### Home Page 
@@ -177,7 +177,7 @@ I would have liked to include an interactive map to help the user locate their n
 
 For the responsive smaller screens I would have liked to have had the radio buttons inline with their answers but still think the layout runs smoothly with the style of the website and the buttons are easy to identify their relationship to which answer. 
 
-
+<a name="tech"></a>
 ### Technology used  
 
 ### HTML
@@ -198,7 +198,7 @@ For the selection and use of a font style for the website
 
 
 
-
+<a name="testing"></a>
 ## Testing 
 
 **Testing for links and form** 
@@ -293,6 +293,7 @@ Results - no errors
 
 Also tested the website on Safari and found the parallax does not flow as smoothly and jumps. The layout of the page remains consistent with other applications used (Firefox and Chrome). 
 
+<a name="bugs"></a>
 ## Bugs 
 
 Navigation menu in 320px screen size was creating screen gap and covering “So Hum” title **fixed**
@@ -307,7 +308,7 @@ Some images did not deploy when changed to web format and identified file path w
 
 Icon for website not visible and too complicated in detail **fixed**
 
-
+<a name="credits"></a>
 ## Credits, Content & Resources 
 
 ### [w3 schools](https://www.w3schools.com/)
@@ -393,6 +394,7 @@ Upon searching for the correct images for the postures I found finding the relev
 The icon I used for the website was sourced from [Free Images](https://www.freeimages.com/a8af63a9-f3b2-4e6a-bf10-79323bd457ef) and was converted into a favicon using the [Favicon Generator](https://favicon.io/favicon-converter/). 
 
 
+<a name="acknowledgements"></a>
 ## Acknowledgements 
 
 ### Alan Bushell 
